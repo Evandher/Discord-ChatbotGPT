@@ -12,7 +12,7 @@ const client = new Client({intents: [
 
 // Bot on configuration
 client.once(Events.ClientReady, c =>{
-    console.log(`Tamo redy papi como ${c.user.tag}`);
+    console.log(`The bot ${c.user.tag} is on`);
 });
 
 // Setting the openai api configuration
